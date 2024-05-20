@@ -224,7 +224,6 @@ window.addEventListener("DOMContentLoaded", async function () {
   if (app) {
     const quizz = new Quizz(questions, app);
     nextBtn.addEventListener("click", () => {
-      console.log(quizz.currentCard);
       quizz.next(quizz.currentCard.isCorrect);
       Toast.unpop();
     });
