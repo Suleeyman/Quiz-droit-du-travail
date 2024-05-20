@@ -1,0 +1,301 @@
+[
+  {
+    "question": "Le bloc de consitutionnalité comprend",
+    "choix": [
+      "Le préambule de la Constitution de 1946",
+      "Les décrets pris après avis du Conseil d'État",
+      "Les arrêtés ministériels",
+      "Les traités internationaux ratifiés par la France"
+    ],
+    "reponse": 1
+  },
+  {
+    "question": "La déclaration européenne de sauvegarde des droits de l'Homme",
+    "choix": [
+      "Est issue du Conseil de l'Europe",
+      "A été adoptée à l'OIT",
+      "A été adoptée par l'Assemblée nationale",
+      "Est issue de l'Union Européenne"
+    ],
+    "reponse": 1
+  },
+  {
+    "question": "Le test professionnel",
+    "choix": [
+      "Est obligatoirement rémunéré",
+      "Est identique à la période d'essai",
+      "Est réalisé avant la conclusion du contrat de travail",
+      "Peut durer jusqu'à un mois"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "Le conseil de Prud'homme",
+    "choix": [
+      "Rend des jugements insusceptibles d'appel",
+      "Est composé de magistrats professionnels",
+      "Tranche les litiges entre commerçants",
+      "Est composé de représentants des salariés et des représentants des employeurs"
+    ],
+    "reponse": 4
+  },
+  {
+    "question": "Les arrêtés",
+    "choix": [
+      "Sont des décisions de justice",
+      "Permettent de stopper l'examen d'un projet de loi",
+      "Sont des actes réglementaires votés par le Parlement",
+      "Sont des actes réglementaires pris par une autorité administrative"
+    ],
+    "reponse": 4
+  },
+  {
+    "question": "Quel type de contrat de travail n’est pas obligatoirement écrit ?",
+    "choix": [
+      "Le contrat à temps partiel",
+      "Le contrat d'apprentissage",
+      "Le contrat à durée déterminée"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "Un accord de branche étendu",
+    "choix": [
+      "S’applique à toutes les entreprises du secteur d'activité concerné par l’accord",
+      "N’implique pas un arrêté d’extension du Ministère du travail",
+      "S’applique aux seules entreprises adhérentes des organisations patronales signataires",
+      "S’applique à toutes les entreprises situées en France, quelque soit leur secteur d'activité"
+    ],
+    "reponse": 1
+  },
+  {
+    "question": "Constituent une restriction légitime aux libertés individuelles",
+    "choix": [
+      "La contrainte d'alcoolémie imposée aux salariés non occupés à un poste à risque dans l'entreprise",
+      "L'obligation du port d'une tenue spécifique pour le salarié en contact avec le public",
+      "La clause de non-concurrence prévue au contrat de travail d'un commercial",
+      "L'interdication faite au salarié d'un garage automobile de conduire un véhicule d'une marque concurrente"
+    ],
+    "reponse": 2
+  },
+  {
+    "question": "Selon la hiérarchie des normes applicables en France",
+    "choix": [
+      "La loi a une valeur supérieure aux traités internationaux ratifiés",
+      "La loi a une valeur supérieure à la Constitution",
+      "La loi a une valeur supérieure aux directives communautaires",
+      "La loi a une valeur supérieure aux décrets"
+    ],
+    "reponse": 4
+  },
+  {
+    "question": "Un accord d'entreprise",
+    "choix": [
+      "Peut être unilatéralement imposé par l'employeur",
+      "Peut être conclu avec le délégué d'un syndicat ayant recueilli moins de 10% des votes des salariés aux dernières élections du CSE",
+      "Peut être conclu avec le délégué d'un syndicat ayant recueilli plus de 10% des votes des salariés aux dernières élections du CSE",
+      "Peut être conclu malgré l'absence de délégué syndical dans l'entreprise"
+    ],
+    "reponse": 4
+  },
+  {
+    "question": "Laquelle de ces affirmations est inexacte?",
+    "choix": [
+      "Un accord collectif peut déroger aux dispositions supplétives du code du travail",
+      "Un accord d'entreprise peut déroger à un accord de branche dans un sens moins favorable pour le salarié",
+      "Certains sujets définis par la loi (bloc 1) peuvent uniquement faire l'objet de négociation au niveau de la branche",
+      "Un accord collectif peut déroger à la loi dans un sens moins favorable (sauf en matière d'ordre public absolu)"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "Pour être applicable, un accord de branche",
+    "choix": [
+      "Doit obligatoirement être plus favorable que la loi",
+      "Doit être validé par le Ministère du travail",
+      "Doit être conclut par des organisations syndicales représentant au moins 30% des salariés du secteur d'activité concerné",
+      "Doit obligatoirement être conclu par plusieurs organisations patronales représentatives"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "Le Conseil Constitutionnel",
+    "choix": [
+      "Rend uniquement des avis sur la conformité des lois à la Constitution",
+      "Est composé de 9 membres élus",
+      "Peut se prononcer sur la constitutionnalité d'une loi de manière non justifiable lors d'un procès (Question Prioritaire de Constitutionnalité)",
+      "Ne peut être saisi que par le Président de la République"
+    ],
+    "reponse": 1
+  },
+  {
+    "question": "Ne constitue pas un droit ou une liberté fondamentale",
+    "choix": [
+      "Le respect de la vie personnelle",
+      "Le droit de discuter pendant les cours",
+      "L'exercice du droit syndical",
+      "Le droit d'agir en justice"
+    ],
+    "reponse": 2
+  },
+  {
+    "question": "Laquelle de ces conditions n'est pas nécessaire pour caractériser l'usage?",
+    "choix": [
+      "La fixité",
+      "La contractualisation",
+      "La constance",
+      "La généralité"
+    ],
+    "reponse": 2
+  },
+  {
+    "question": "Une sanction disciplinaire",
+    "choix": [
+      "Doit obligatoirement être notifiée par écrit et indiquer les faits reprochés au salarié",
+      "Doit être notifiée au salarié dans les six mois suivant l'entretien préalable",
+      "Peut être justifiée par des faits connus de l'employeur depuis moins d'un an",
+      "Ne peut pas être annulée par le Conseil de Prud'homme"
+    ],
+    "reponse": 1
+  },
+  {
+    "question": "Peut jusitifier une sanction disciplinaire",
+    "choix": [
+      "L'exercice d'un droit reconnu au salarié (droit syndical, droit de grève)",
+      "Un motif discriminatoire lié aux origines du salarié, à son orientation sexuelle ou à sa religion",
+      "Une insuffisance professionnelle ou un insuffisance de résultat",
+      "Une exécution volontairement défectueuse du travail (négligence, baisse volontaire de rendement)"
+    ],
+    "reponse": 4
+  },
+  {
+    "question": "Laquelle de ces propositions est exacte ?",
+    "choix": [
+      "Le salarié ne peut pas être sanctionné pour avoir refusé un changement de ses conditions de travail",
+      "Le salarié peut imposer à l'employeur un changement de ses conditions de travail",
+      "Le salarié ne peut pas être sanctionné pour avoir refusé une modification de son contrat de travail",
+      "L'employeur peut imposer au salarié la modification de son contrat de travail"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "La période d'essai",
+    "choix": [
+      "N'est possible que pour les cadres et ingénieurs",
+      "N'est pas rémunérée",
+      "Doit être prévue dans le contrat de travail",
+      "Est systématique"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "Laquelle de ces sources du droit du travail n'est pas d'origine \"jurisprudentielle\" ?",
+    "choix": [
+      "Le contrat de travail",
+      "L'engagement unilatéral",
+      "L'accord atypique",
+      "L'usage"
+    ],
+    "reponse": 4
+  },
+  {
+    "question": "Les ordonnances",
+    "choix": [
+      "Ne peuvent pas être utilisées par le Gouvernement en matière de droit du travail",
+      "Sont utilisées par le Gouvernement pour prescrire des médicaments",
+      "Permettent au Parlement de légiférer sur des sujets ne relevant pas de la loi",
+      "Permette au Gouvernement d'adopter directement des normes relevant du pouvoir législatif avec l'autorisation du Parlement"
+    ],
+    "reponse": 4
+  },
+  {
+    "question": "Dans les entreprises de plus de 50 salariés",
+    "choix": [
+      "L'employeur doit mentionner dans le règlement intérieur la nature et l'échelle des sanctions susceptiles d'être prononcées",
+      "L'absence de règlement intérieur n'empêche pas l'employeur de notifier une mise à pied disciplinaire",
+      "L'absence de règlement intérieur empêche tout licenciement disciplinaire",
+      "L'employeur peut prendre des sanctions non prévues par le règlement intérieur"
+    ],
+    "reponse": 1
+  },
+  {
+    "question": "Le droit international public s'intéresse",
+    "choix": [
+      "Aux règles définissant les reliations entre un état et ses administrés",
+      "Aux règles applicables entre personnes privées",
+      "Aux règles gouvernant les relations en états (traités)",
+      "Aux règles définissant les infractions et leurs sanctions"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "Les \"délits\" sont jugés par",
+    "choix": [
+      "Les tribunaux de police",
+      "Les cours d'assise",
+      "Les cours criminelles départementales",
+      "Les tribunaux correctionnels"
+    ],
+    "reponse": 4
+  },
+  {
+    "question": "L'assemblé générale de l'OIT est composée",
+    "choix": [
+      "De délégations tripartites consituées de représentants des états membres, des syndicats de salariés et des organisations patronales",
+      "De représentants des états membres",
+      "De représentants des syndicats de salariés",
+      "De représentant des organisations patronales"
+    ],
+    "reponse": 1
+  },
+  {
+    "question": "Une règle de droit",
+    "choix": [
+      "Ne peut pas être modifiée",
+      "Doit être renouvelée tous les cents ans pour continuer à s'appliquer",
+      "Ne peut pas être abrogée",
+      "Reste applicable tant qu'elle n'est pas abrogée ou modifiée"
+    ],
+    "reponse": 4
+  },
+  {
+    "question": "Laquelle des ces propositions est inexacte ?",
+    "choix": [
+      "La règle de droit est permanente",
+      "La règle de droit est obligatoire",
+      "La règle de droit est inutile",
+      "La règle de droit est générale"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "Les directives communautaires",
+    "choix": [
+      "Ne fixent jamais de normes relatives au droit du travail",
+      "Sont immédiatement applicables dans les états membres",
+      "Doivent être transposées dans un délai déterminé dans la réglementation des états-membres",
+      "Ont la valeur d'un avis non contraignant"
+    ],
+    "reponse": 1
+  },
+  {
+    "question": "Quel élément ne permet pas de caractériser le lien de subordination juridique?",
+    "choix": [
+      "L'intégration du salarié à un service organisé",
+      "Le pouvoir de sanctionner le non-respect des directives",
+      "Le pouvoir de donner des directives",
+      "Le pouvoir de contrôler le respect de directives"
+    ],
+    "reponse": 1
+  },
+  {
+    "question": "Le recours au télétravail",
+    "choix": [
+      "Peut être imposé au salarié en cas de circonstances exceptionnelles",
+      "Peut être imposé par l'employeur en toute circonstance",
+      "Peut être unilatéralement imposé par le salarié",
+      "Peut être refusé par le salarié en toute circonstance"
+    ],
+    "reponse": 1
+  }
+]
