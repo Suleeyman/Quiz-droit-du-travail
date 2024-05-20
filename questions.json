@@ -54,9 +54,10 @@
     "choix": [
       "Le contrat à temps partiel",
       "Le contrat d'apprentissage",
-      "Le contrat à durée déterminée"
+      "Le contrat à durée déterminée",
+      "Aucune bonne réponse"
     ],
-    "reponse": 3
+    "reponse": 4
   },
   {
     "question": "Un accord de branche étendu",
@@ -196,7 +197,7 @@
       "L'accord atypique",
       "L'usage"
     ],
-    "reponse": 4
+    "reponse": 1
   },
   {
     "question": "Les ordonnances",
@@ -276,7 +277,7 @@
       "Doivent être transposées dans un délai déterminé dans la réglementation des états-membres",
       "Ont la valeur d'un avis non contraignant"
     ],
-    "reponse": 1
+    "reponse": 3
   },
   {
     "question": "Quel élément ne permet pas de caractériser le lien de subordination juridique?",
