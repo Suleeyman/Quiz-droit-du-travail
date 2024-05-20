@@ -27,6 +27,7 @@ class Card {
   options;
   answer;
   id;
+  isCorrect;
 
   constructor(question, options, answer, id) {
     this.question = question;
@@ -63,29 +64,27 @@ class Card {
   listenCard(Quizz) {
     const card = document.querySelector(`.card#qid${this.id}`);
     let locked = false;
-    card.addEventListener("click", function (e) {
+    card.addEventListener("click", (e) => {
       if (locked) return;
       locked = true;
       const target = e.target;
-      console.log(target);
-      console.log(target.dataset);
       if (!target.classList.contains("card__option")) {
         locked = false;
         return;
       }
       const correctAnswer =
         target.dataset.correct && target.dataset.correct === "correct";
+      this.isCorrect = correctAnswer;
 
-      if (correctAnswer) {
+      if (this.isCorrect) {
         target.classList.add("correct");
       } else {
         target.classList.add("wrong");
+        card
+          .querySelector(".card__option[data-correct]")
+          .classList.add("correct");
       }
-      Toast.popup(correctAnswer);
-      setTimeout(() => {
-        Quizz.next(correctAnswer);
-        Toast.unpop();
-      }, 1000);
+      Toast.popup(this.isCorrect);
     });
   }
 }
@@ -134,6 +133,7 @@ class Quizz {
   app;
   locked = false;
   score;
+  currentCard;
 
   constructor(questions, app) {
     this.#questions = questions;
@@ -165,9 +165,10 @@ class Quizz {
       question.reponse,
       this.currentQuestion
     );
+    this.currentCard = card;
     this.app.innerHTML = "";
-    this.app.insertAdjacentHTML("afterbegin", card.generateCard());
-    card.listenCard(this);
+    this.app.insertAdjacentHTML("afterbegin", this.currentCard.generateCard());
+    this.currentCard.listenCard(this);
   }
 
   next(correct) {
@@ -188,6 +189,8 @@ class Quizz {
   }
 
   finalScore() {
+    const note = ((this.correctAnswers - this.incorrectAnswers) * 20) / 30;
+    const noteArrondie = Math.round((note + Number.EPSILON) * 100) / 100;
     document.body.insertAdjacentHTML(
       "beforeend",
       `
@@ -198,6 +201,9 @@ class Quizz {
                     <p class="correct-body">${this.correctAnswers} ✅<p>
                     <p class="wrong-body">${this.incorrectAnswers} 🔴<p>
                 </div>
+                <p>Celui équivaut à l'examen : <strong>${
+                  noteArrondie <= 0 ? 0 : noteArrondie
+                } / 20</strong></p>
                 <button type="button" class="primary" id="restart">🎓 Rejouer</button>
             </div>
         </div>
@@ -212,11 +218,15 @@ class Quizz {
 
 window.addEventListener("DOMContentLoaded", async function () {
   const app = document.querySelector("#app");
+  const nextBtn = document.querySelector("button#next");
   const questions = await fetchQuestions();
-
-  console.log(questions);
 
   if (app) {
     const quizz = new Quizz(questions, app);
+    nextBtn.addEventListener("click", () => {
+      console.log(quizz.currentCard);
+      quizz.next(quizz.currentCard.isCorrect);
+      Toast.unpop();
+    });
   }
 });
