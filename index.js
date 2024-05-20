@@ -73,7 +73,7 @@ class Card {
         return;
       }
       const correctAnswer =
-        target.dataset.correct && target.dataset.correct === "correct";
+        !!target.dataset.correct && target.dataset.correct === "correct";
       this.isCorrect = correctAnswer;
 
       if (this.isCorrect) {
@@ -92,16 +92,19 @@ class Card {
 class Score {
   correctSpan;
   incorrectSpan;
+  notAnsweredSpan;
 
-  constructor(correctSpan, incorrectSpan, total) {
+  constructor(correctSpan, incorrectSpan, notAnsweredSpan, total) {
     this.correctSpan = correctSpan;
     this.incorrectSpan = incorrectSpan;
+    this.notAnsweredSpan = notAnsweredSpan;
     this.total;
   }
 
-  setScore(correct, incorrect) {
+  setScore(correct, incorrect, notAnswered) {
     this.correctSpan.innerHTML = "";
     this.incorrectSpan.innerHTML = "";
+    this.notAnsweredSpan.innerHTML = "";
 
     this.correctSpan.insertAdjacentHTML(
       "afterbegin",
@@ -120,6 +123,15 @@ class Score {
         </span>
     `
     );
+
+    this.notAnsweredSpan.insertAdjacentHTML(
+      "afterbegin",
+      `
+      <span class="score">
+          ${notAnswered}
+      </span>
+  `
+    );
   }
 }
 
@@ -130,6 +142,7 @@ class Quizz {
   #shuffledQuestions;
   correctAnswers = 0;
   incorrectAnswers = 0;
+  notAnswered = 0;
   app;
   locked = false;
   score;
@@ -141,6 +154,7 @@ class Quizz {
     this.score = new Score(
       document.querySelector(".correct > .score"),
       document.querySelector(".wrong > .score"),
+      document.querySelector(".stats__stat.neutral > .score"),
       questions.length
     );
     this.start();
@@ -152,8 +166,8 @@ class Quizz {
       .sort((a, b) => a.sort - b.sort)
       .map(({ value }) => value);
 
-    this.correctAnswers = this.incorrectAnswers = 0;
-    this.score.setScore(0, 0);
+    this.correctAnswers = this.incorrectAnswers = this.notAnswered = 0;
+    this.score.setScore(0, 0, 0);
     this.popQuestion();
   }
 
@@ -173,12 +187,18 @@ class Quizz {
 
   next(correct) {
     this.currentQuestion++;
-    if (correct) {
+    if (correct === true) {
       this.correctAnswers++;
-    } else {
+    } else if (correct === false) {
       this.incorrectAnswers++;
+    } else {
+      this.notAnswered++;
     }
-    this.score.setScore(this.correctAnswers, this.incorrectAnswers);
+    this.score.setScore(
+      this.correctAnswers,
+      this.incorrectAnswers,
+      this.notAnswered
+    );
 
     if (this.currentQuestion === this.#questions.length) {
       this.finalScore();
@@ -198,8 +218,15 @@ class Quizz {
             <div class="final__result">
                 <h2>Votre score final</h2>
                 <div class="body-stat">
-                    <p class="correct-body">${this.correctAnswers} ✅<p>
-                    <p class="wrong-body">${this.incorrectAnswers} 🔴<p>
+                    <p class="body-stat__stat correct-body">${
+                      this.correctAnswers
+                    } ✅<p>
+                    <p class="body-stat__stat neutral-body">${
+                      this.notAnswered
+                    } ◽<p>
+                    <p class="body-stat__stat wrong-body">${
+                      this.incorrectAnswers
+                    } 🔴<p>
                 </div>
                 <p>Celui équivaut à l'examen : <strong>${
                   noteArrondie <= 0 ? 0 : noteArrondie
