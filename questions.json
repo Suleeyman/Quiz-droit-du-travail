@@ -332,7 +332,7 @@
   {
     "question": "Les règles de droit d'origine législative sont dans la 1ère partie du code du travail avec la lettre",
     "choix": ["R", "L", "D", "L1"],
-    "reponse": "2"
+    "reponse": 2
   },
   {
     "question": "Dans la hiérarchie des normes en droit interne",
@@ -342,7 +342,7 @@
       "Les traités internationaux ont une valeur supérieur à la Constitution",
       "Un décret a une valeur supérieur aux arrêtés"
     ],
-    "reponse": "4"
+    "reponse": 4
   },
   {
     "question": "Le tribunal de proximité rend ses décisions avec",
