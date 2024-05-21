@@ -209,7 +209,7 @@ class Quizz {
   }
 
   finalScore() {
-    const note = ((this.correctAnswers - this.incorrectAnswers) * 20) / 30;
+    const note = ((this.correctAnswers - this.incorrectAnswers) * 20) / this.#questions.length;
     const noteArrondie = Math.round((note + Number.EPSILON) * 100) / 100;
     document.body.insertAdjacentHTML(
       "beforeend",
