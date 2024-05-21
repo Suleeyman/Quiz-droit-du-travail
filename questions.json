@@ -298,5 +298,164 @@
       "Peut être refusé par le salarié en toute circonstance"
     ],
     "reponse": 1
+  },
+  {
+    "question": "Une convention de branche",
+    "choix": [
+      "Doit être respecté par toutes les entreprises du secteur d'activité",
+      "Doit être respecté par les entreprises adhérant à une organisation syndicale d'employeurs signataires de la convention",
+      "Concerne seulement les salariés adhérant à une organisation syndicale de salariés signataire de la convention",
+      "N'est plus tenue d'être respecté une fois que l'entreprise quitte l'organisation syndicale d'employeurs ayant signé la convention"
+    ],
+    "reponse": 2
+  },
+  {
+    "question": "Une convention ou accord peuvent être négociées au niveau",
+    "choix": [
+      "interprofessionnel, d'une branche d'activité ou de l'entreprise",
+      "interprofessionnel, d'une branche d'activité, de l'entreprise ou du tribunal",
+      "international, d'une branche d'activité ou du tribunal",
+      "Aucune bonne réponse"
+    ],
+    "reponse": 1
+  },
+  {
+    "question": "Le Préambule de la Constituion de 1946 dit que",
+    "choix": [
+      "tout chômeur participe par l'intermédiaire de ses délégués à la détermination collective des conditions de travail",
+      "tout travailleur participe par l'intermédiaire de ses collègues à la détermination collective des conditions de travail",
+      "tout travailleur participe par l'intermédiaire de ses délégués à la détermination collective des conditions de travail",
+      "tout travailleur participe par l'intermédiaire de ses collègues à la détermination individuelle des conditions de travail"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "Les règles de droit d'origine législative sont dans la 1ère partie du code du travail avec la lettre",
+    "choix": ["R", "L", "D", "L1"],
+    "reponse": "2"
+  },
+  {
+    "question": "Dans la hiérarchie des normes en droit interne",
+    "choix": [
+      "La loi a une valeur supérieur aux traités internationaux",
+      "Un arrêté a une valeur supérieur aux décrets",
+      "Les traités internationaux ont une valeur supérieur à la Constitution",
+      "Un décret a une valeur supérieur aux arrêtés"
+    ],
+    "reponse": "4"
+  },
+  {
+    "question": "Le tribunal de proximité rend ses décisions avec",
+    "choix": [
+      "Un unique juge",
+      "Avec un nombre égal de juges non professionnels, composé d'un nombre égal de salariés et d'employeurs",
+      "Trois juges",
+      "D'un unique juge consulaire"
+    ],
+    "reponse": 1
+  },
+  {
+    "question": "L'employeur",
+    "choix": [
+      "N'a pas le droit de faire procéder à un essai professionnel",
+      "Ne peut opérer que des discriminations indirectes sur l'appartenance syndicale du salarié",
+      "Ne peut opérer aucune discrimination quant à l'orientation sexuelle des salariés"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "Le droit du travail",
+    "choix": [
+      "Fait partie du droit constitutionnel",
+      "Fait partie du droit privé",
+      "Fait partie du droit public"
+    ],
+    "reponse": 2
+  },
+  {
+    "question": "Le contrat de travail",
+    "choix": [
+      "N'a qu'une définition jurisprudentielle",
+      "Est précisément défini par le code du travail",
+      "Peut toujours être rompu",
+      "Est un contrat de droit commun"
+    ],
+    "reponse": 1
+  },
+  {
+    "question": "L'employeur est obligé",
+    "choix": [
+      "De fournir du travail au salarié",
+      "À compétence, ancienneté et niveau de diplôme égal de rémunérer un salarié français autant qu'un salarié étranger même si le poste occupé est différent",
+      "D'organiser des pauses cigarettes aux salariés fumeurs"
+    ],
+    "reponse": 1
+  },
+  {
+    "question": "Le contrat de travail",
+    "choix": [
+      "Est obligatoirement écrit",
+      "Peut comporter des clauses obligatoires prévues par le code du travail",
+      "Est pour un CDI à temps partiel obligatoirement écrit",
+      "Est obligatoirement écrit s'il est dérogatoire au contrat de droit commun"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "Le temps de travail dans l'entreprise",
+    "choix": [
+      "Peut prévoir des périodes de haute activité et des périodes de basse activité",
+      "Ne peut pas faire en sorte que les salariés travaillent plus de 6 jours par semaine",
+      "Peut être aménagé à raison de 7 heures par jour tous les jours de la semaine pour tous les salariés"
+    ],
+    "reponse": 1
+  },
+  {
+    "question": "Ce qui caractérise le contrat de travail",
+    "choix": [
+      "L'existence d'un contrat écrit",
+      "Le fait que le salarié se place sous la subordination de son employeur",
+      "Le simple fait que le travailleur perçoive une rémunération",
+      "Le fait qu'une personne offre sa force de travail en échange d'une rémunération"
+    ],
+    "reponse": 2
+  },
+  {
+    "question": "Selon l'article L. 3121-1 du Code du travail",
+    "choix": [
+      "Les temps d'habillage et de déshabillage des travailleurs de l'amiante ne peuvent vaquer à une crypte",
+      "Le temps de travail effectif est le temps pendant lequel le salarié est à la disposition de l'employeur et se conforme à ses directives sans pouvoir vaquer librement à ses occupations personnelles",
+      "Seuls les salariés mariés avec des enfants peuvent demander des temps de repos le mercredi"
+    ],
+    "reponse": 2
+  },
+  {
+    "question": "Les sources du droit du travail",
+    "choix": [
+      "Sont uniquement imposées par la loi",
+      "Sont nationales ou internationales",
+      "Si elles sont internationales, elles nécessitent obligatoirement une retranscription en droit français"
+    ],
+    "reponse": 2
+  },
+  {
+    "question": "La grève",
+    "choix": [
+      "Toujours obligatoirement précédée d'un préavis de 4 jours",
+      "Est un droit à valeur constitutionnelle parce qu'inscrit dans la constitution du 4 octobre 1958",
+      "Est un droit à valeur constitutionnelle parce qu'inscrit dans la déclaration des droits de l'homme et du citoyen",
+      "Est un droit à valeur constitutionnelle parce qu'inscrit dans le préambule de la constitution de 1946"
+    ],
+    "reponse": 4
+  },
+  {
+    "question": "La grève",
+    "choix": [
+      "Obligatoirement chômés et payés",
+      "Obligatoirement chômés",
+      "Des jours qui peuvent être travaillés à l'exception du 1er mai",
+      "Définis par le code du travail mais leur chômage est prévu par les conventions collectives"
+    ],
+    "reponse": 3
   }
 ]
